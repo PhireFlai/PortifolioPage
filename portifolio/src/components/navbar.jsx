@@ -31,11 +31,11 @@ const Navbar = () => {
 
 
 
-            <div className={`fixed top-0 right-0 items-end justify-end pl-20 pt-20 bg-black transform ${mobileNav ? 'translate-x-0 h-full' : 'translate-x-full h-0'} transition-transform duration-300 ease-in-out md:hidden`}>
+            <div className={`fixed top-0 right-0 items-end justify-end pl-20 pt-20 bg-black transform ${mobileNav ? 'translate-x-0 ' : 'translate-x-full '} h-full transition-transform duration-1000 ease-in-out md:hidden z-40`}>
                 <ul className='flex flex-col items-end mr-4'>
                     {['about', 'work', 'skills', 'contact'].map((item) => (
 
-                        <li key={item} className='my-2 uppercase text-center  ease-in-out duration-200 hover:bg-gray-400 hover:border-gray-300'>
+                        <li key={item} className='my-2 uppercase text-center hover:bg-gray-400 hover:border-gray-300'>
                             <div />
                             <a onClick={() => (setMobileNav(false))} className='text-base lg:text-xl text-white' href={`#${item}`}>{item}</a>
                         </li>
