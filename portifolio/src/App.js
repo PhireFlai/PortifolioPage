@@ -12,13 +12,13 @@ import Navbar from './components/navbar';
 
 function App() {
   return (
-    <div className="">
+    <div className="bg-gray-700 text-white">
       <Navbar />
       <Header />
       <About />
-      <Work />
       <Skills />
-      <Testimonial />
+      <Work />
+      {/* <Testimonial /> */}
       <Footer />
     </div>
   );
