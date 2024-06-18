@@ -5,7 +5,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ultricies a
 
 const About = () => {
   return (
-    <div className='flex flex-col justify-center'>
+    <div className='flex flex-col justify-center mt-20'>
       
       <div className='flex items-start mt-4'>
         <h1 className='ml-8 font-serif text-5xl sm:text-4xl font-thin uppercase'>

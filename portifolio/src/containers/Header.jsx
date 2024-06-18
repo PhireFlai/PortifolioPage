@@ -16,14 +16,14 @@ const Header = () => {
 
   return (
     <div
-      className='flex flex-row sm:flex-col text-gray-900 justify-center items-center bg-cover bg-center bg-fixed py-3'
+      className='mb-30 py-20 flex flex-row sm:flex-col text-gray-900 justify-center items-center bg-cover bg-center bg-fixed'
       style={{ backgroundImage: `url(${background})` }}
     >
 
       {/* picture */}
       <div className={`flex flex-col transform ease-in-out delay-[600ms] duration-[2000ms]  transition-opacity ${onDisplay ? 'opacity-100' : 'opacity-0'}`}>
 
-        <div className={`w-[500px] h-[500px] sm:w-[150px] sm:h-[150px] rounded-full bg-gray-800 overflow-hidden my-4 mx-5 flex justify-center items-center flex-col transform ${onDisplay ? 'translate-x-0' : '-translate-x-full'} ease-in-out duration-[3000ms]  transition-transform`}>
+        <div className={`w-[400px] h-[400px] sm:w-[150px] sm:h-[150px] rounded-full bg-gray-800 overflow-hidden my-4 mx-5 flex justify-center items-center flex-col transform ${onDisplay ? 'translate-x-0' : '-translate-x-full'} ease-in-out duration-[3000ms]  transition-transform`}>
           <img src={profPic} alt='profile-pic' className='w-full h-full object-cover' />
         </div>
 

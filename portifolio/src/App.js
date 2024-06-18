@@ -12,7 +12,7 @@ import Navbar from './components/navbar';
 
 function App() {
   return (
-    <div className="bg-gray-700 text-white">
+    <div className="bg-gray-800 text-white">
       <Navbar />
       <Header />
       <About />
