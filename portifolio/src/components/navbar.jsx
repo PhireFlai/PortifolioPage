@@ -29,6 +29,7 @@ const Navbar = () => {
 
         // mobile navbar
         <div className='font-roboto'>
+
             <div className={`hidden w-full bg-gray-900 justify-between sm:flex ${isScrolled ? 'fixed' : ''} z-50`}>
 
                 <div className='flex w-1/5 bg-gray-900  justify-center items-center py-4'>
@@ -44,13 +45,15 @@ const Navbar = () => {
                     </button>
                 </div>
 
-
             </div>
 
 
 
             {/* mobile navbar */}
-            <div className={`fixed top-0 right-0 items-end justify-end pl-20 pt-20 bg-gray-900  transform ${mobileNav ? 'translate-x-0 ' : 'translate-x-full '} h-full transition-transform duration-1000 ease-in-out md:hidden z-10`}>
+            <div 
+            className={`fixed top-0 right-0 items-end justify-end pl-20 pt-20 bg-gray-900  transform ${mobileNav ? 'translate-x-0 ' : 'translate-x-full '} h-full transition-transform duration-1000 ease-in-out md:hidden z-10`}
+            >
+
                 <ul className='flex flex-col items-end mr-4'>
                     {['about', 'skills', 'work', 'contact'].map((item) => (
 
@@ -61,6 +64,7 @@ const Navbar = () => {
 
                     ))}
                 </ul>
+                
             </div>
 
 

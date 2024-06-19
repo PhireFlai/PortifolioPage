@@ -34,8 +34,11 @@ const Header = () => {
 
 
         <div className={`transform flex sm:flex-row justify-center items-center text-center font-rubik`}>
+
           <div className={`p-3 text-white bg-gray-900 rounded-xl shadow-md shadow-neutral-700 flex flex-col transform ease-in-out delay-[600ms] duration-[2000ms]  transition-opacity ${onDisplay ? 'opacity-100' : 'opacity-0'}`}>
+            
             <div>
+
               <div className='flex justify-center items-center flex-row'>
                 <MdOutlineWavingHand className='mr-2' size={30} />
                 <p className='text-xl sm:text-lg mt-2'>Hello I am</p>
@@ -43,14 +46,14 @@ const Header = () => {
 
               <h1 className='text-5xl sm:text-xl ml-1'>Yijie Zou</h1>
               <p className='mt-2 text-md sm:text-sm text-center ml-1'>Web App/Software Developer</p>
+            
             </div>
+         
           </div>
+
         </div>
 
       </div>
-
-
-
 
     </div>
   )

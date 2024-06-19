@@ -1,6 +1,6 @@
 import {
   About,
-  Footer,
+  Contact,
   Header,
   Skills,
   Testimonial,
@@ -19,7 +19,7 @@ function App() {
       <Skills />
       <Work />
       {/* <Testimonial /> */}
-      <Footer />
+      <Contact />
     </div>
   );
 }

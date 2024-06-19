@@ -5,8 +5,11 @@ import MongoDBIcon from './mongodb.svg';
 import PythonIcon from './python.png';
 import ReactIcon from './React-icon.png';
 import TailwindIcon from './Tailwind.png';
-import GitIcon from './git.png'
-import FireBaseIcon from './firebase.png'
+import GitIcon from './git.png';
+import FireBaseIcon from './firebase.png';
+import LinkedInIcon from './linkedin.png';
+import GitHubIcon from './github.png';
+import GmailIcon from './gmail.png';
 
 
 const images ={
@@ -18,7 +21,10 @@ const images ={
     ReactIcon,
     TailwindIcon,
     GitIcon,
-    FireBaseIcon
+    FireBaseIcon,
+    LinkedInIcon,
+    GitHubIcon,
+    GmailIcon,
 };
 
 export default images;
