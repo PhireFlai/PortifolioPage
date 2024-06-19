@@ -15,11 +15,19 @@ function App() {
     <div className="bg-gray-800 text-white">
       <Navbar />
       <Header />
-      <About />
-      <Skills />
-      <Work />
+      <section id="about">
+        <About />
+      </section>
+      <section id="skills">
+        <Skills />
+      </section>
+      <section id="work">
+        <Work />
+      </section>
       {/* <Testimonial /> */}
-      <Contact />
+      <section id="contact">
+        <Contact />
+      </section>
     </div>
   );
 }

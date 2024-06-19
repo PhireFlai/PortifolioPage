@@ -8,7 +8,7 @@ const About = () => {
     <div className='flex flex-col justify-center items-center mt-20'>
 
 
-      <h1 className='my-20 font-serif text-5xl sm:text-4xl font-thin uppercase justify-center text-center'>
+      <h1 className='my-20 font-serif text-5xl sm:text-4xl font-bold uppercase justify-center text-center'>
         About Me
       </h1>
 

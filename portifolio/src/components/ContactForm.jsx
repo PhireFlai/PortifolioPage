@@ -36,7 +36,7 @@ const ContactForm = () => {
                     required
                 />
             </div>
-            <div className='flex justify-center items-center'>
+            <div className='flex justify-center items-center pt-10'>
                 <button type='submit' className='border rounded-lg p-1 bg-gray-900 mb-4 px-4'>
                     Send
                 </button>

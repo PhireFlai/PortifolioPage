@@ -12,9 +12,9 @@ const contacts = [
 const email =  { name: 'Email', image: images.GmailIcon, email: 'yijiezou2004@gmail.com', }
 const Contact = () => {
   return (
-    <div>
+    <div className='pb-20'>
 
-      <h1 className='pb-10 my-20 font-serif text-5xl sm:text-4xl font-thin uppercase justify-center text-center'>
+      <h1 className=' my-20 font-serif text-5xl sm:text-4xl font-bold  uppercase justify-center text-center'>
         Contact
       </h1>
 

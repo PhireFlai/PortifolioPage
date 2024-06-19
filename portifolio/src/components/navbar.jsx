@@ -5,7 +5,7 @@ import { RxHamburgerMenu } from "react-icons/rx";
 import { MdClose } from "react-icons/md";
 
 
-
+const sections = ['about', 'skills', 'work', 'contact'];
 
 const Navbar = () => {
     const [mobileNav, setMobileNav] = useState(false);
@@ -32,7 +32,7 @@ const Navbar = () => {
 
             <div className={`hidden w-full bg-gray-900 justify-between sm:flex ${isScrolled ? 'fixed' : ''} z-50`}>
 
-                <div className='flex w-1/5 bg-gray-900  justify-center items-center py-4'>
+                <div className='flex w-1/5 bg-gray-900  justify-center items-center py-4 ml-2'>
                     <img src={Logo} alt='logo' className='flex object-scale-down  max-h-[40px]' />
                 </div>
 
@@ -55,7 +55,7 @@ const Navbar = () => {
             >
 
                 <ul className='flex flex-col items-end mr-4'>
-                    {['about', 'skills', 'work', 'contact'].map((item) => (
+                    {sections.map((item) => (
 
                         <li key={item} className='my-2 uppercase text-center hover:bg-gray-400 hover:border-gray-300'>
                             <div />
@@ -64,7 +64,7 @@ const Navbar = () => {
 
                     ))}
                 </ul>
-                
+
             </div>
 
 
@@ -80,7 +80,7 @@ const Navbar = () => {
 
 
                 <ul className='flex w-4/5 bg-gray-900 justify-between items-center '>
-                    {['about', 'skills', 'work', 'contact'].map((item) => (
+                    {sections.map((item) => (
 
                         <li key={`link-${item}`} className='mx-2 my-2 w-full py-1 uppercase text-center  ease-in-out duration-200 hover:bg-gray-700 '>
                             <div />

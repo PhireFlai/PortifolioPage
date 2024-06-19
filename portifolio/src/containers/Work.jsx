@@ -14,7 +14,7 @@ const Work = () => {
   return (
     <div className=' flex justify-center items-center font-bold mt-20 '>
       <div className='w-[90%]'>
-        <h1 className='my-20 font-serif text-5xl sm:text-4xl font-thin uppercase justify-center text-center'>
+        <h1 className='my-20 font-serif text-5xl sm:text-4xl font-bold  uppercase justify-center text-center'>
           Projects
         </h1>
 

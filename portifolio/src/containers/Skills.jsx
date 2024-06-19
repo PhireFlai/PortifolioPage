@@ -24,7 +24,7 @@ const Skills = () => {
 
 
       <div className='w-[60%]'>
-        <h1 className='my-20 font-serif text-5xl sm:text-4xl font-thin uppercase justify-center text-center'>
+        <h1 className='my-20 font-serif text-5xl sm:text-4xl font-bold  uppercase justify-center text-center'>
           Skills
         </h1>
 
@@ -40,7 +40,7 @@ const Skills = () => {
         </div>
 
       </div>
-      
+
     </div>
   );
 };
