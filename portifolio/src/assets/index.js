@@ -10,6 +10,7 @@ import FireBaseIcon from './firebase.png';
 import LinkedInIcon from './linkedin.png';
 import GitHubIcon from './github.png';
 import GmailIcon from './gmail.png';
+import CppIcon from './C++.png';
 
 
 const images ={
@@ -25,6 +26,7 @@ const images ={
     LinkedInIcon,
     GitHubIcon,
     GmailIcon,
+    CppIcon,
 };
 
 export default images;

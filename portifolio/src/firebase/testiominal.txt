@@ -1,0 +1,8 @@
+Testimonial
+{
+    name: string
+    company: string
+    image: url
+    feedback: string
+}
+

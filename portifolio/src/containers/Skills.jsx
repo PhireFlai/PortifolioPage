@@ -10,6 +10,7 @@ const icons = [
   { name: 'MongoDB', image: images.MongoDBIcon, link: 'https://www.mongodb.com' },
   { name: 'python', image: images.PythonIcon, link: 'https://www.python.org' },
   { name: 'C', image: images.CIcon, link: 'https://www.learn-c.org' },
+  { name: 'C++', image: images.CppIcon,  link: 'https://isocpp.org' },
   { name: 'Android Studio', image: images.AndroidStudioIcon, link: 'https://developer.android.com/studio' },
   { name: 'Firebase', image: images.FireBaseIcon, link: 'https://firebase.google.com' },
 
