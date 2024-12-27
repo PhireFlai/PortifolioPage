@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portifolio/static/css/main.e36c21bb.css",
+    "main.js": "/portifolio/static/js/main.c36c212a.js",
+    "static/media/backdrop.gif": "/portifolio/static/media/backdrop.90477685d42c4d47a387.gif",
+    "static/media/Android_Studio.png": "/portifolio/static/media/Android_Studio.8a81ac4da2816855eac7.png",
+    "static/media/React-icon.png": "/portifolio/static/media/React-icon.81ed438b18e24116794d.png",
+    "static/media/C++.png": "/portifolio/static/media/C++.c37344b3f54290980c0c.png",
+    "static/media/C.png": "/portifolio/static/media/C.faa67b97f574421ee841.png",
+    "static/media/Tailwind.png": "/portifolio/static/media/Tailwind.77a67aa0f20e5a5339ab.png",
+    "static/media/python.png": "/portifolio/static/media/python.520031e8cff48202542c.png",
+    "static/media/firebase.png": "/portifolio/static/media/firebase.eb0f694b0397db6b58c3.png",
+    "static/media/github.png": "/portifolio/static/media/github.987334e9f782cc505f25.png",
+    "static/media/temp.png": "/portifolio/static/media/temp.aa869f7362a1b8f65429.png",
+    "static/media/JavaScript.png": "/portifolio/static/media/JavaScript.266bd9fb2663dcc057b4.png",
+    "index.html": "/portifolio/index.html",
+    "static/media/mongodb.svg": "/portifolio/static/media/mongodb.bfa6cdd80f4a99232cadb39ebbb976d2.svg",
+    "main.e36c21bb.css.map": "/portifolio/static/css/main.e36c21bb.css.map",
+    "main.c36c212a.js.map": "/portifolio/static/js/main.c36c212a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e36c21bb.css",
+    "static/js/main.c36c212a.js"
+  ]
+}
