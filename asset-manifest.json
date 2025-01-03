@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PortifolioPage/static/css/main.e36c21bb.css",
-    "main.js": "/PortifolioPage/static/js/main.7271f8ce.js",
+    "main.css": "/PortifolioPage/static/css/main.4f0344ec.css",
+    "main.js": "/PortifolioPage/static/js/main.057c1d8f.js",
     "static/media/backdrop.gif": "/PortifolioPage/static/media/backdrop.90477685d42c4d47a387.gif",
     "static/media/Android_Studio.png": "/PortifolioPage/static/media/Android_Studio.8a81ac4da2816855eac7.png",
     "static/media/React-icon.png": "/PortifolioPage/static/media/React-icon.81ed438b18e24116794d.png",
@@ -15,11 +15,11 @@
     "static/media/JavaScript.png": "/PortifolioPage/static/media/JavaScript.266bd9fb2663dcc057b4.png",
     "index.html": "/PortifolioPage/index.html",
     "static/media/mongodb.svg": "/PortifolioPage/static/media/mongodb.bfa6cdd80f4a99232cadb39ebbb976d2.svg",
-    "main.e36c21bb.css.map": "/PortifolioPage/static/css/main.e36c21bb.css.map",
-    "main.7271f8ce.js.map": "/PortifolioPage/static/js/main.7271f8ce.js.map"
+    "main.4f0344ec.css.map": "/PortifolioPage/static/css/main.4f0344ec.css.map",
+    "main.057c1d8f.js.map": "/PortifolioPage/static/js/main.057c1d8f.js.map"
   },
   "entrypoints": [
-    "static/css/main.e36c21bb.css",
-    "static/js/main.7271f8ce.js"
+    "static/css/main.4f0344ec.css",
+    "static/js/main.057c1d8f.js"
   ]
 }
